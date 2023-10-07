@@ -3,7 +3,7 @@ node default {
     message => 'Creating README.md file',
   }
   
-  file { 'root/README.md':
+  file { '/root/README.md':
       ensure => file,
     }
 }
