@@ -8,9 +8,4 @@ node default {
       content => "# This is a README file\nContents of the README file...",
       owner  => root,
     }
-
-    file { '/root/README.md':
-      ensure  => file,
-      owner  => root,
-    }
 }
