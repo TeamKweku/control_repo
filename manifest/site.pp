@@ -9,7 +9,7 @@ node default {
       owner  => root,
     }
 
-    fiel { '/root/README.md':
+    file { '/root/README.md':
       ensure  => file,
       owner  => root,
     }
